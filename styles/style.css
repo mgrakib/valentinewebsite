@@ -1,0 +1,44 @@
+.v-leftbannar {
+    background-image: url(../assets/images/long_shapte.png);
+    background-size: 130%;
+    background-position: center;
+    position: relative;
+    z-index: 5;
+}
+.v-nav-item {
+    z-index: 5;
+    cursor: pointer;
+}
+
+.v-nav-item::before{
+    content: "";
+    width: 100%;
+    height: 155%;
+    background-image: url(../assets/images/middel_shap.png);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    z-index: -5;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+} 
+
+.v-nav-item:hover::before{
+    top: -24px;
+    opacity: 1;
+    visibility: visible;
+} 
+
+
+.v-leftBG {
+    background-image: url(../assets/images/round_shap.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: -32px;
+    transform: translateY(-50%);
+}

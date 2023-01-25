@@ -1,0 +1,201 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+        <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#442d30',
+            s_primary: '#220e10',
+            t_primary: '#d10026',
+          },
+          fontFamily: {
+             dancing: ['Dancing Script', 'cursive'],
+             oswald: ['Oswald', 'sans-serif'],
+             montserrat: ['Montserrat', 'sans-serif'],
+          },
+        }
+        
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600&family=EB+Garamond:wght@400;500;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Khula:wght@300;400;600;700;800&family=Lobster+Two:wght@400;700&family=Montserrat:wght@200;300;400;500&family=Norican&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Oswald:wght@300;400;700&family=Poppins:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+
+		<title>Document</title>
+	</head>
+	<body class="h-screen" style="background-color: #E96165;">
+
+   <!-- main container  -->
+    <div class="w-9/12 h-4/5 bg-black mx-auto mt-16 overflow-hidden">
+      <div class="row h-full w-full flex g-0">
+
+        <!-- main section start  -->
+        <div class="col w-11/12 bg-green-400 h-full">
+          <div class="w-full h-full bg-gradient-to-t from-primary to-s_primary">
+            
+            <!-- nav sectino start  -->
+            <header class="py-5 px-4 h-1/6">
+              <nav class="flex items-center justify-between">
+                <!-- logo  -->
+                <div >
+                  <a href=""><img src="./assets/images/logo.png" alt="" style="width: 140px;"></a>
+                </div>
+                <!-- logo  end-->
+
+                <!-- navisation -->
+                <ul class="flex relative">
+                  <li class="py-4 px-6 v-nav-item relative"><a href="" class="text-white">Home</a></li>
+                  <li class="py-4 px-6 v-nav-item relative"><a href="" class="text-white">Velentine</a></li>
+                  <li class="py-4 px-6 v-nav-item relative"><a href="" class="text-white">About</a></li>
+                  <li class="py-4 px-6 v-nav-item relative"><a href="" class="text-white">Promo</a></li>
+                  <li class="py-4 px-6 v-nav-item relative"><a href="" class="text-white">Contact</a></li>
+                </ul>
+                <!-- navisation -->
+
+              </nav>
+            </header>
+            <!-- nav sectino end  -->
+
+            <main class="h-5/6">
+              <section class="grid grid-cols-12 h-full">
+                <!-- left side section -->
+                <div class="col-span-1 h-full relative">
+                  <div class="w-full h-1/2 absolute -left-5 v-leftBG p-10">
+                      <div class="bg-green-400 h-7 z-50">
+                        
+                      </div>
+                  </div>
+
+                </div>
+                <!-- left side section end-->
+
+
+                <!-- hero images section -->
+                <div class="col-span-6  relative">
+
+                  <!-- loves -->
+                  <div class="absolute top-20 left-10">
+                    <img src="./assets/images/leftbg/big.png" alt="" style="width: 60px;">
+                  </div>
+                  <div class="absolute top-8 left-24 rotate-12">
+                    <img src="./assets/images/leftbg/big.png" alt="" style="width: 40px;">
+                  </div>
+                  <div class="absolute top-4 left-36 rotate-12">
+                    <img src="./assets/images/leftbg/big.png" alt="" style="width: 20px;">
+                  </div>
+                  <!-- loves end-->
+
+                  <div class="w-full h-full ">
+                    <div class="flex justify-center mt-24">
+                      <img src="./assets/images/leftbg/round.png" alt="" style="width: 80%;">
+
+                      <div class="absolute w-8/12 bottom-11">
+                        <img src="./assets/images/leftbg/secondround.png" alt="" >
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- hero images section end-->
+
+                <!-- text section -->
+                <div class="col-span-5  h-full text-center p-3">
+                  <h2 class="font-dancing text-t_primary font-bold text-5xl">Supper Sale</h2>
+                  <h1 class="text-white font-oswald font-bold text-5xl my-4">Valentine's Day</h1>
+                  <p class="text-xs text-center text-white max-w-xs mx-auto " style="font-size: 10px; max-width: 250px; line-height: 12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil possimus quam voluptatum iusto facere obcaecati! Dolorem molestias earum dicta tempore </p>
+
+                  <div class="w-full my-5">
+                    <div><img src="./assets/images/leftbg/line1.png" alt=""></div>
+
+                    <div class="my-4">
+                      <p>BIG FASHION DAYs</p>
+                      <P>13 <sup><small>TH</small></sup> - 16 <sup><small>TH</small></sup>  </P>
+                    </div>
+
+                    <div><img src="./assets/images/leftbg/line2.png" alt=""></div>
+                  </div>
+
+                  <div class="flex justify-center relative ">
+                    <img src="./assets/images/leftbg/shop.png" alt="" style="width: 140px;" class="cursor-pointer">
+                    <div class="absolute top-2/4 cursor-pointer -translate-y-2/4"><p class="text-t_primary font-bold">Shop Now</p></div>
+                  </div>
+                  <div class="w-full relative">
+                    <div class="relative">
+                      <img src="./assets/images/leftbg/big.png" alt="" style="width: 60px;" class="">
+
+                      <img src="./assets/images/leftbg/inside.png" class="absolute top-1/2 -translate-y-1/2 left-4" alt="" style="width: 25px;">
+                    </div>
+                    <div class="absolute -bottom-5 left-1/2 -translate-x-1/2">
+                      <img src="./assets/images/leftbg/big.png" alt="" style="width: 30px;">
+                    </div>
+                    <div class="absolute -bottom-0 right-1 -translate-x-1/2">
+                      <img src="./assets/images/leftbg/big.png" alt="" style="width: 35px;">
+                    </div>
+
+
+                  </div>
+                </div>
+                <!-- text section -->
+              </section>
+            </main>
+
+          </div>
+        </div>
+        <!-- main section end  -->
+
+        <!-- right side bannar  -->
+        <div class="w-1/12 h-full col  text-white relative p-0">
+          <div class="absolute h-full w-full bg-slate-400 top-0 left-0 v-leftbannar">
+            <div class="h-full w-full p-3 flex flex-col justify-between items-center">
+              <div>
+                <a href=""><img src="./assets/images/align-justify.svg" alt="" style="width: 20px;"></a>
+              </div>
+              <div>
+                <ul class="space-y-2">
+                  <li class="flex items-center justify-center cursor-pointer"><a href=""><img src="./assets/images/facebook.svg" alt="" style="width: 20px;"></a></li>
+
+                  <li class="flex items-center justify-center cursor-pointer"><a href=""><img src="./assets/images/instagram.svg" alt="" style="width: 20px;"></a></li>
+
+                  <li class="flex items-center justify-center cursor-pointer"><a href=""><img src="./assets/images/twitter.svg" alt="" style="width: 20px;"></a></li>
+
+                  <li class="flex items-center justify-center cursor-pointer"><a href=""><img src="./assets/images/youtube.svg" alt="" style="width: 20px;"></a></li>
+                  
+                  <li style="" class="flex items-center justify-center cursor-pointer"><a href=""><img src="./assets/images/leftbg/lineh.png" alt="" style="height: 40px;"></a></li>
+                  
+                  <li class="flex items-center justify-center cursor-pointer"><a href=""><img src="./assets/images/search.svg" alt="" style="width: 20px;"></a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="">BAN</a></li>
+                  <li><a href="">ENG</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right side bannar rnf -->
+      </div>
+
+    </div>
+
+
+    </body>
+</html>
